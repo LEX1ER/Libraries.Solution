@@ -9,14 +9,13 @@ using Microsoft.AspNetCore.SignalR.Client;
 Connect to your own SignalR Server.
 
 ```c#
-SignalR signalR = new SignalR();
 string url = "https://www.mysignalrhost.com/hubs/myhub";
 object queryParams = new 
 {
    // your query parameters here.
 };
 
-HubConnection signalRConnection = signalR
+HubConnection signalRConnection = new SignalRConnection()
   .Url(url)
   .QueryParams(queryParams)
   .Connect();

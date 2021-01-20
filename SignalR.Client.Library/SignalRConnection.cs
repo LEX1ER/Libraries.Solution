@@ -5,17 +5,17 @@ using System.Web;
 
 namespace SignalR.Client.Library
 {
-    public class SignalR
+    public class SignalRConnection
     {
         HubConnection HubConnection;
         string url;
         string qs;
-        public SignalR Url(string url)
+        public SignalRConnection Url(string url)
         {
             this.url = url;
             return this;
         }
-        public SignalR QueryParams(object qpObjects)
+        public SignalRConnection QueryParams(object qpObjects)
         {
             this.qs = GetQueryString(qpObjects);
             return this;
@@ -41,10 +41,6 @@ namespace SignalR.Client.Library
                              select p.Name + "=" + HttpUtility.UrlEncode(p.GetValue(obj, null).ToString());
 
             return String.Join("&", properties.ToArray());
-        }
-
-        public SignalR()
-        {
         }
     }
 }
