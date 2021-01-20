@@ -1,9 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>LEX1ER</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.2</Version>
+    <Description>This is a basic library for SignalR Client.</Description>
+    <PackageProjectUrl>https://github.com/LEX1ER/Libraries.Solution/tree/master/SignalR.Client.Library</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
