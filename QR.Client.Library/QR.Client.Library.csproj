@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>LEX1ER</Authors>
+    <Description>This is a basic QR Client</Description>
+    <Version>1.0.2</Version>
+    <PackageReleaseNotes>Update the usage.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="QRCoder" Version="1.4.1" />
+  </ItemGroup>
+
+</Project>

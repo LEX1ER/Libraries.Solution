@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatBot.Client.Library", "C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Local", "Local", "{5ADB16C4-166A-4245-88CB-4F4CB78B1653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTable.Client.Library", "Local\DataTable.Client.Library\DataTable.Client.Library.csproj", "{5310EF2D-33B0-4D26-9A31-93BBEE0E748E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTable.Client.Library", "Local\DataTable.Client.Library\DataTable.Client.Library.csproj", "{5310EF2D-33B0-4D26-9A31-93BBEE0E748E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Select2.Client.Library", "Select2.Client.Library\Select2.Client.Library.csproj", "{AF6659EA-8E60-465E-AFED-F66195986B9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Select2.Client.Library", "Local\Select2.Client.Library\Select2.Client.Library.csproj", "{AF6659EA-8E60-465E-AFED-F66195986B9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QR.Client.Library", "QR.Client.Library\QR.Client.Library.csproj", "{F235EF2F-C1F7-47D0-B78B-3974D7B78945}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{AF6659EA-8E60-465E-AFED-F66195986B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF6659EA-8E60-465E-AFED-F66195986B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF6659EA-8E60-465E-AFED-F66195986B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F235EF2F-C1F7-47D0-B78B-3974D7B78945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F235EF2F-C1F7-47D0-B78B-3974D7B78945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F235EF2F-C1F7-47D0-B78B-3974D7B78945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F235EF2F-C1F7-47D0-B78B-3974D7B78945}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
